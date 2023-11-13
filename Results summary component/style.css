@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Hanken+Grotesk:wght@500&family=Heebo&family=IBM+Plex+Mono&family=Lato:wght@400;900&family=Open+Sans:wght@500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Hanken Grotesk";
+}
+.evenly {
+    margin-left: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-main {
+    display: flex;
+    margin: 1rem;
+    width: 600px;
+    height: 400px;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 30px;
+    margin-top: 200px;
+}
+
+
+.result {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    text-align: center;
+    border-radius: 2rem;
+    width: 50%;
+}
+.result-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 1.5rem;
+    box-shadow: none;
+}
+h4 {
+    margin-top: 2rem;
+    font-weight: 500;
+}
+h2 {
+    margin-top: 2rem;
+    font-weight: 800;
+}
+
+.button-continue {
+    font-weight: 400px;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: lighter;
+}
+h5 {
+    color: hsl(241, 100%, 79%);
+    font-weight: 500;
+    
+}
+h3 {
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.circle {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem auto;
+}
+.summary {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0.5rem;
+}
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+    border-radius: 15px;
+    margin: 0.8rem;
+}
+.card1 {
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 5%);
+}
+.card2 {
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 5%);
+}
+.card3 {
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 5%);
+}
+.card4 {
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 5%);
+}
+.fa-solid {
+    padding: 0.3rem;
+}
+.button {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 30px;
+    font-size: smaller;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 2rem;
+    cursor: pointer;
+}
+.score {
+    color: hsla(224, 30%, 27%, 60%);
+}
+strong {
+    color: hsla(224, 30%, 27%, 100%);
+}
+@media (max-width: 475px) {
+    .main-container > div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sub-main {
+        height: 100%;
+        margin: 0;
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .result {
+        background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        color: white;
+        text-align: center;
+        border-radius: 0;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        width: 100vw;
+        box-shadow: none;
+    }
+    .result-container {
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto 1.5rem;
+        box-shadow: none;
+    }
+    h4 {
+        margin-top: 1rem;
+        font-weight: 500;
+        margin-left: 1.5rem;
+    }
+    h5 {
+        color: hsl(241, 100%, 79%);
+        font-weight: 700;
+        
+    }
+    h3 {
+        color: hsl(241, 100%, 89%);
+        font-weight: 500;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    h1 {
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    .circle {
+        background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 1rem auto;
+    }
+    .summary {
+        display: flex;
+        flex-direction: column;
+        width: 95vw;
+    }
+    .card-box {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        border-radius: 15px;
+        margin: 0.8rem;
+    }
+    .card1 {
+        color: hsl(0, 100%, 67%);
+        background-color: hsla(0, 100%, 67%, 5%);
+    }
+    .card2 {
+        color: hsl(39, 100%, 56%);
+        background-color: hsla(39, 100%, 56%, 5%);
+    }
+    .card3 {
+        color: hsl(166, 100%, 37%);
+        background-color: hsla(166, 100%, 37%, 5%);
+    }
+    .card4 {
+        color: hsl(234, 85%, 45%);
+        background-color: hsla(234, 85%, 45%, 5%);
+    }
+    .fa-solid {
+        padding: 0.3rem;
+    }
+    .button {
+        background-color: hsl(224, 30%, 27%);
+        color: white;
+        border: none;
+        padding: 1rem;
+        border-radius: 30px;
+        font-size: smaller;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 2rem;
+    }
+    .score {
+        color: hsla(224, 30%, 27%, 60%);
+    }
+    strong {
+        color: hsla(224, 30%, 27%, 100%);
+    }
+  }
